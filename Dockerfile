@@ -1,3 +1,5 @@
-fROM nginx
+FROM nginx
 
-#COPY index.html /usr/share/html
+COPY index.html /usr/share/nginx/html/
+
+EXPOSE "80"
